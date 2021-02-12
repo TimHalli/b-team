@@ -22,7 +22,9 @@ function App() {
     img: {
       height: "250",
       backgroundImage:
-        "url(https://www.seopro.pro/wp-content/uploads/sites/56/2015/06/reputation-management.jpg)",
+        "url(https://assets.weforum.org/report/image/knJgP4WBIFElZ-EYVat9EEXFh1pM1RoidLg5P-voSCs.png)",
+        backgroundSize: 'auto',
+       
     },
 
     header: { color: "white", textAlign: "center" },
@@ -40,18 +42,19 @@ function App() {
     <div>
       <div style={styles.img}>
         <button
-          style={{ position: "fixed" }}
+          style={{ position: "fixed", zIndex:1 }}
           type="button"
           onClick={changeMode}
           className="btn btn-primary btn-sm"
         >
-          Change Mode
+          Switch Mode
         </button>
         <br />
         <br />
+        
         <div style={styles.header}>
           <h1>B Team</h1>
-          <h4>Marketing solutions</h4>
+          <h3>Marketing solutions</h3>
         </div>
         <br />
         <br />
